@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Aukera Cyrillic";
+  src: url("../fonts/Aukera-cyrillic.otf") format("otf");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Halvar Mittelschrift";
+  src: url("../fonts/HalvarMittel-Md.woff") format("woff");
+  font-style: normal;
+  font-weight: 500;
+}

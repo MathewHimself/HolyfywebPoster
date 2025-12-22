@@ -11,6 +11,7 @@ body {
   left: 0px;
 }
 #block1 {
+  position: relative;
   display: flex;
   gap: 23px;
 }
@@ -103,5 +104,260 @@ body {
 }
 .smallRow {
   display: flex;
+  gap: 23px;
+}
+#block2 {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  width: 1152px;
+  height: 355px;
+  background-color: white;
+  border-radius: 30px;
+}
+.name {
+  position: absolute;
+  font-family: "Aukera Cyrillic";
+  font-size: 220px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  margin-top: 50px;
+}
+.rectangle1 {
+  background: #f57b30;
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(100px);
+  box-shadow: inset 0 0 3px #fff;
+  box-shadow: inset 0 0 20px #fff;
+  opacity: 0.8;
+  mix-blend-mode: overlay;
+  border-radius: 30px;
+  position: absolute;
+  width: 395px;
+  height: 88px;
+  top: 65%;
+  left: 15%;
+}
+.rectangle2 {
+  background: #f57b30;
+  backdrop-filter: blur(40px);
+  -webkit-backdrop-filter: blur(100px);
+  box-shadow: inset 0 0 3px #fff;
+  box-shadow: inset 0 0 20px #fff;
+  opacity: 0.8;
+  mix-blend-mode: overlay;
+  border-radius: 30px;
+  position: absolute;
+  width: 226px;
+  height: 152px;
+  top: 20%;
+  left: 70%;
+}
+
+#block3 {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  display: flex;
+  width: 1152px;
+  height: 1138px;
+}
+.BigSquare3 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.square3 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 19px;
+  background: linear-gradient(to bottom, #f2622e, #f57b30);
+  width: 532px;
+  height: 761px;
+  border-radius: 30px;
+}
+.textWrap {
+  align-items: center;
+  width: 329px;
+}
+.text1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Halvar Mittelschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+}
+.calcContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: 476px;
+  height: 170px;
+}
+.calcBig1 {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  width: 476px;
+  height: 81px;
+}
+.calcPart1 {
+  position: relative;
+  background: linear-gradient(to right, #f2622e, #f57b30);
+  border-radius: 30px;
+  height: 100%;
+  width: 296px;
+}
+.calcPart2 {
+  position: relative;
+  background: linear-gradient(to right, #f2622e, #f57b30);
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
+.calcBig2 {
+  display: flex;
+  flex-direction: c;
+  border-radius: 30px;
+  gap: 18px;
+  width: 476px;
+  height: 81px;
+}
+.calcPart3 {
+  position: relative;
+  background: linear-gradient(to right, #f2622e, #f57b30);
+  border-radius: 30px;
+  height: 100%;
+  width: 130px;
+}
+.calcPart4 {
+  position: relative;
+  background: linear-gradient(to right, #f2622e, #f57b30);
+  border-radius: 30px;
+  height: 100%;
+  width: 100%;
+}
+.text2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Halvar Mittelschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: black;
+}
+.morph1 {
+  width: 437px;
+  height: 613px;
+}
+.square4 {
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 532px;
+  height: 354px;
+  border-radius: 30px;
+}
+.square5 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.glyph2 {
+  position: relative;
+}
+.hand {
+  top: 5%;
+  position: absolute;
+  z-index: -1;
+}
+#block4 {
+  overflow: hidden;
+  width: 1152px;
+  height: 328px;
+}
+.square6 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #f2622e, #f57b30);
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
+.textWrap4 {
+  position: relative;
+  width: 23.6vw;
+  height: 5.4vw;
+  top: -35%;
+  left: -30%;
+  z-index: 2;
+  text-align: left;
+}
+.text3 {
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "Halvar Mittelschrift";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  color: #fff;
+}
+.man {
+  top: -90%;
+  left: 25%;
+  position: absolute;
+  z-index: 1;
+}
+.morph2 {
+  top: 1%;
+  left: 2%;
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  z-index: 0;
+}
+#block5 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1152px;
+  height: 648px;
+}
+.BigSquare4 {
+  background: linear-gradient(to top, #f2622e, #f57b30);
+  border-radius: 30px;
+  height: 100%;
+  width: 596px;
+}
+.BigSquare5 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  height: 533px;
+  width: 384px;
+  display: flex;
+  flex-direction: row;
   gap: 23px;
 }

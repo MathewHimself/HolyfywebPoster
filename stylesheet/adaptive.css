@@ -1,0 +1,72 @@
+#block1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: start;
+  gap: 23px;
+}
+@media (max-width: 1280px) {
+  #block1 {
+    max-width: 1152px;
+    padding-top: 42px;
+    padding-right: 64px;
+    padding-bottom: 0;
+    padding-left: 64px;
+  }
+}
+
+@media (max-width: 900px) {
+  #block1 {
+    grid-template-columns: 77.44vw;
+    max-width: none;
+    gap: 25px;
+    padding-left: 30px;
+    padding-left: 36px;
+    padding-right: 35px;
+  }
+
+  .BigSquare1 {
+    grid-row: 1;
+    /* width: 77.44vw;
+    height: 89.22vw; */
+    width: 100%;
+    aspect-ratio: 646 / 744;
+  }
+  .glyph1 {
+    width: 77.44vw;
+    aspect-ratio: 646 / 744;
+  }
+  .moon {
+    width: 56.78vw;
+    aspect-ratio: 511 / 499;
+  }
+
+  .BigSquare2 {
+    grid-row: 2;
+    width: 77.44vw;
+    height: 119.67vw;
+  }
+  .whiteSquare {
+    width: 77.44vw;
+    height: 77.44vw;
+  }
+  .flower {
+    width: 50.89vw;
+    height: 49.89vw;
+  }
+  .square1 {
+    width: 28.22vw;
+    height: 36.67vw;
+  }
+  .glyphRow {
+    width: 10.11vw;
+    height: 68.67vw;
+  }
+  .square2 {
+    width: 45.56vw;
+    height: 38.67vw;
+  }
+  .planet {
+    width: 29.33vw;
+    height: 28.44vw;
+  }
+}

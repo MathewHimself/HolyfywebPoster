@@ -1,5 +1,107 @@
 body {
-  background-color: aquamarine;
+  background-color: gray;
 }
-.text {
+.template {
+  position: absolute;
+  background-image: url("../images/poster.png");
+  width: 1280px;
+  height: 3598px;
+  opacity: 0.3;
+  top: 0px;
+  left: 0px;
+}
+#block1 {
+  display: flex;
+  gap: 23px;
+}
+
+.BigSquare1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Базовые значения для экрана 1280px */
+  width: 50.47vw; /* 646px при 1280px */
+  height: 58.12vw; /* 744px при 1280px */
+
+  /* Ограничения для больших экранов */
+  max-width: 646px;
+  max-height: 746px;
+
+  /* Минимальные размеры для читаемости */
+  min-width: 300px;
+  min-height: 350px;
+}
+.glyph1 {
+  position: relative;
+  width: 646px;
+  height: 744px;
+}
+.moon {
+  position: absolute;
+  width: 33.59vw;
+  height: auto;
+  max-width: 430px;
+  top: 47%;
+  transform: translateY(-50%);
+}
+.whiteSquare {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 483px;
+  height: 482px;
+  border-radius: 30px;
+}
+.BigSquare2 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.flower {
+  position: relative;
+  display: flex;
+  width: 317px;
+  height: 311px;
+  padding: 0;
+  margin: 0;
+}
+.square1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #f2622e, #f57b30);
+  width: 176px;
+  height: 241px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.glyphRow {
+  width: 63px;
+  height: 428px;
+}
+.square2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 284px;
+  height: 241px;
+  border-radius: 30px;
+  background-color: white;
+}
+.planet {
+  position: relative;
+  width: 183px;
+  height: 177px;
+  padding: 0;
+  margin: 0;
+}
+.smallRow {
+  display: flex;
+  gap: 23px;
 }

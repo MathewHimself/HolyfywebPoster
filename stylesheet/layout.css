@@ -1,5 +1,5 @@
 body {
-  background-color: gray;
+  background: linear-gradient(to top, #e0e0e0, #b3b3b3);
 }
 .template {
   position: absolute;
@@ -343,21 +343,160 @@ body {
   height: 648px;
 }
 .BigSquare4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   background: linear-gradient(to top, #f2622e, #f57b30);
   border-radius: 30px;
   height: 100%;
   width: 596px;
+}
+.gifka {
+  height: 573px;
+  width: 595px;
+}
+.glyphs2 {
+  position: absolute;
+  height: 244px;
+  width: 1589px;
 }
 .BigSquare5 {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 23px;
 }
 .row {
-  height: 533px;
-  width: 384px;
+  height: 384px;
+  width: 533px;
   display: flex;
   flex-direction: row;
   gap: 23px;
+}
+.square7 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 31px;
+  height: 100%;
+  width: 276px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 172px;
+  border-radius: 30px;
+  background: linear-gradient(to right, #f2622e, #f57b30);
+}
+.textWrap5 {
+  height: 214px;
+  width: 231px;
+}
+.text4 {
+  text-align: center;
+  font-family: "Aukera Cyrillic";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+}
+.text5 {
+  text-transform: uppercase;
+  font-family: "Halvar Mittelschrift";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+}
+.square8 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 234px;
+  background: linear-gradient(to top, #f2622e, #f57b30);
+  border-radius: 30px;
+}
+.square9 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 24px;
+  height: 241px;
+  width: 533px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+.circle1 {
+  position: relative;
+  height: 118px;
+  width: 108px;
+  transform: rotate(0deg);
+}
+.circle2 {
+  position: relative;
+  height: 118px;
+  width: 108px;
+  transform: rotate(180deg);
+}
+.circle3 {
+  position: relative;
+  height: 118px;
+  width: 118px;
+  transform: rotate(270deg);
+}
+.circle4 {
+  position: relative;
+  height: 118px;
+  width: 118px;
+  transform: rotate(90deg);
+}
+#block6 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 266px;
+  background-color: #fff;
+  height: 200px;
+  width: 1163px;
+  border-radius: 30px;
+}
+.row2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 7px;
+  height: 52px;
+  width: 503px;
+  left: 5%;
+}
+.text6 {
+  text-transform: uppercase;
+  font-family: "Halvar Mittelschrift";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150.6%;
+}
+.HSElogo {
+  position: relative;
+  height: 100px;
+  width: 248px;
 }

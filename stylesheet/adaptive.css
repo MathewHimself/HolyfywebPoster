@@ -7,13 +7,6 @@ body {
   gap: 23px;
   padding-top: 42px;
 }
-
-#block3 {
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-items: start;
-  gap: 23px;
-}
 #block5 {
   display: grid;
   grid-template-columns: auto auto;
@@ -62,6 +55,26 @@ body {
     width: 14.3vw;
     height: 13.828vw;
   }
+  #block2 {
+    width: 90vw;
+    height: 27vw;
+  }
+  .name {
+    font-size: 15vw;
+    width: 78vw;
+    height: 20vw;
+    margin-top: 5%;
+  }
+  .rectangle1 {
+    width: 30vw;
+    height: 7vw;
+    top: 50%;
+    left: 15%;
+  }
+  .rectangle2 {
+    width: 17vw;
+    height: 11vw;
+  }
 }
 @media (max-width: 1280px) {
   #block1 {
@@ -105,19 +118,87 @@ body {
     width: 14.3vw;
     height: 13.828vw;
   }
+  #block2 {
+    width: 90vw;
+    height: 27vw;
+  }
+  .name {
+    font-size: 15vw;
+    width: 78vw;
+    height: 20vw;
+    margin-top: 5%;
+  }
+  .rectangle1 {
+    width: 30vw;
+    height: 7vw;
+    top: 50%;
+    left: 15%;
+  }
+  .rectangle2 {
+    width: 17vw;
+    height: 11vw;
+  }
+  #block3 {
+    display: grid;
+    grid-template-columns: 47vw 53vw;
+    grid-template-rows: 67vw 47vw;
+    gap: 23px;
+    justify-items: center;
+  }
+  .square3 {
+    width: 100%;
+    height: 100%;
+    grid-area: 1 /1 / 2 / 1;
+  }
 }
 
 @media (max-width: 768px) {
+  #block1 {
+    display: grid;
+    grid-template-columns: 33vw 53vw;
+    grid-template-rows: 90vw 90vw 45vw;
+    gap: 23px;
+    justify-items: center;
+  }
+  .BigSquare1 {
+    grid-area: 1 / 1 / 2 / 3;
+  }
   .glyph1 {
-    width: 90.7vw;
-    height: 104.56vw;
+    width: 100%;
+    height: 100%;
   }
   .moon {
     width: 60.41vw;
     height: 65vw;
     min-height: 241px;
     min-width: 224px;
-    top: 30%;
-    left: 30%;
+  }
+  .whiteSquare {
+    grid-area: 2 / 1/ 2 / 3;
+  }
+  .flower {
+    width: 59vw;
+    height: 58vw;
+  }
+  .square1 {
+    grid-area: 3 / 1 / 3 / 1;
+  }
+  .glyphRow {
+    width: 11vw;
+    height: 80vw;
+  }
+  .square2 {
+    grid-area: 3 /2 / 3 / 2;
+  }
+  .planet {
+    width: 34.37vw;
+    height: 33.3vw;
+  }
+  #block3 {
+    display: grid;
+    grid-template-columns: 50.47vw 13.75vw 22.18vw;
+    grid-template-rows: 37.66vw 18.23vw;
+    gap: 23px;
+    justify-items: center;
   }
 }

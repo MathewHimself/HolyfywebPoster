@@ -60,10 +60,17 @@
     width: 17vw;
     height: 11vw;
   }
+  #block3 {
+    display: grid;
+    grid-template-columns: 41.5vw 46.6vw;
+    grid-template-rows: 59vw 27vw;
+    gap: 23px;
+    justify-items: center;
+  }
   #block5 {
     display: grid;
-    grid-template-columns: 53vw 24.5vw 20.5vw;
-    grid-template-rows: 34vw 21.4vw;
+    grid-template-columns: 46.5vw 21.5vw 18.2vw;
+    grid-template-rows: 30vw 18.8vw;
     gap: 23px;
     justify-items: center;
   }
@@ -152,11 +159,10 @@
   }
   #block3 {
     display: grid;
-    grid-template-columns: 47vw 53vw;
+    grid-template-columns: 41.5vw 46.6vw;
     grid-template-rows: 59vw 27vw;
     gap: 23px;
     justify-items: center;
-    max-width: 1152px;
   }
   .square3 {
     width: 100%;
@@ -213,16 +219,23 @@
   }
   #block5 {
     display: grid;
-    grid-template-columns: 53vw 24.5vw 20.5vw;
-    grid-template-rows: 34vw 21.4vw;
+    grid-template-columns: 46.5vw 21.5vw 18.2vw;
+    grid-template-rows: 30vw 18.8vw;
     gap: 23px;
     justify-items: center;
-    max-width: 1152px;
   }
   .BigSquare4 {
     grid-area: 1 /1 / 3 / 2;
     height: 100%;
     width: 100%;
+  }
+  .gifka {
+    height: 44.7vw;
+    width: 46.5vw;
+  }
+  .glyphs2 {
+    height: 19vw;
+    width: 124vw;
   }
   .square7 {
     grid-area: 1 /2 / 2 / 2;
@@ -240,6 +253,10 @@
     grid-area: 1 /3 / 1 /3;
     height: 100%;
     width: 100%;
+  }
+  .aim {
+    width: 12.8vw;
+    height: 24vw;
   }
   .button {
     height: 3.4vw;
@@ -284,6 +301,9 @@
 }
 
 @media (max-width: 768px) {
+  body {
+    gap: 26px;
+  }
   #block1 {
     display: grid;
     grid-template-columns: 33vw 53vw;
@@ -327,8 +347,8 @@
   }
   #block3 {
     display: grid;
-    grid-template-columns: 50.47vw 13.75vw 22.18vw;
-    grid-template-rows: 37.66vw 18.23vw;
+    grid-template-columns: 91vw;
+    grid-template-rows: 175vw 131.5vw 61.2vw;
     gap: 23px;
     justify-items: center;
   }
@@ -345,14 +365,34 @@
     height: 100%;
     width: 100%;
   }
+  .gifka {
+    height: 97.6vw;
+    width: 97.6vw;
+  }
+  .glyphs2 {
+    height: 43vw;
+    width: 291vw;
+  }
   .square7 {
     grid-area: 2 /1 / 2 / 2;
     height: 100%;
     width: 100%;
   }
+  .textWrap5 {
+    height: 16.7vw;
+    width: 18vw;
+  }
+  .text4 {
+    text-align: center;
+    font-size: 8vw;
+  }
+  .aim {
+    width: 24.8vw;
+    height: 46.6vw;
+  }
   .button {
-    height: 3.4vw;
-    width: 13.4vw;
+    height: 7.5vw;
+    width: 29.6vw;
     min-height: 58px;
     min-width: 110px;
   }
@@ -362,20 +402,20 @@
     width: 100%;
   }
   .circle1 {
-    height: 9.2vw;
-    width: 8.4vw;
+    height: 18.6vw;
+    width: 20.3vw;
   }
   .circle2 {
-    height: 9.2vw;
-    width: 8.4vw;
+    height: 18.6vw;
+    width: 20.3vw;
   }
   .circle3 {
-    height: 9.2vw;
-    width: 8.4vw;
+    height: 18.6vw;
+    width: 20.3vw;
   }
   .circle4 {
-    height: 9.2vw;
-    width: 8.4vw;
+    height: 18.6vw;
+    width: 20.3vw;
   }
   .square9 {
     grid-area: 3 /1 / 3 /3;
@@ -394,7 +434,7 @@
   }
   .HSElogo {
     position: relative;
-    mmin-height: 72px;
+    min-height: 72px;
     min-width: 79px;
     height: 12vw;
     width: 5vw;

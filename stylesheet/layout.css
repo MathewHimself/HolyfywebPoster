@@ -1,6 +1,15 @@
 body {
-  /* background: linear-gradient(to top, #e0e0e0, #b3b3b3); */
-  background-color: #b3b3b3;
+  background: linear-gradient(to bottom, #e0e0e0, #b4b4b4);
+  /* background-color: #b3b3b3; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 23px;
+  padding-top: 42px;
 }
 #block1 {
   position: relative;
@@ -23,12 +32,6 @@ body {
   top: 16%;
   left: 18%;
 }
-
-.BigSquare2 {
-  flex-direction: column;
-  gap: 23px;
-}
-
 .whiteSquare {
   position: relative;
   display: flex;
@@ -45,8 +48,6 @@ body {
   display: flex;
   width: 317px;
   height: 311px;
-  padding: 0;
-  margin: 0;
 }
 .square1 {
   position: relative;
@@ -77,10 +78,6 @@ body {
   width: 183px;
   height: 177px;
 }
-/* .smallRow {
-  display: flex;
-  gap: 23px;
-} */
 
 #block2 {
   justify-content: center;
@@ -144,6 +141,10 @@ body {
 }
 .square3 {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 19px;
   background: linear-gradient(to bottom, #f2622e, #f57b30);
   width: 100%;
@@ -178,7 +179,7 @@ body {
   flex-direction: row;
   gap: 18px;
   width: 476px;
-  height: 81px;
+  height: 100%;
 }
 .calcPart1 {
   position: relative;
@@ -193,14 +194,6 @@ body {
   border-radius: 30px;
   height: 100%;
   width: 100%;
-}
-.calcBig2 {
-  display: flex;
-  flex-direction: c;
-  border-radius: 30px;
-  gap: 18px;
-  width: 476px;
-  height: 81px;
 }
 .calcPart3 {
   position: relative;
@@ -226,6 +219,7 @@ body {
   color: black;
 }
 .morph1 {
+  position: relative;
   width: 437px;
   height: 613px;
 }
@@ -242,24 +236,31 @@ body {
   border-radius: 30px;
 }
 .square5 {
-  position: relative;
+  grid-column: 2;
+  grid-row: 1 / span 2; /* Занимает с 1 строки, растягивается на 2 строки */
+  height: 100%; /* Важно! */
   display: flex;
-  justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  justify-content: center;
+  overflow: hidden;
 }
+
 .glyph2 {
-  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
+/* .glyph2 {
+  width: 597px;
+  height: 1138px;
+} */
 .hand {
-  top: 5%;
   position: absolute;
-  z-index: -1;
 }
 #block4 {
   overflow: hidden;
-  width: 1152px;
-  height: 328px;
+  width: 90vw;
+  height: 25vw;
 }
 .square6 {
   position: relative;
@@ -273,7 +274,7 @@ body {
 }
 .textWrap4 {
   position: relative;
-  width: 23.6vw;
+  width: 25vw;
   height: 5.4vw;
   top: -35%;
   left: -30%;
@@ -290,17 +291,17 @@ body {
   color: #fff;
 }
 .man {
-  top: -90%;
-  left: 25%;
+  top: -70%;
+  left: 30%;
   position: absolute;
   z-index: 1;
+  width: 41vw;
+  height: 70vw;
 }
 .morph2 {
-  top: 1%;
-  left: 2%;
   position: absolute;
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
   z-index: 0;
 }
 #block5 {
@@ -308,8 +309,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1152px;
-  height: 648px;
+  /* width: 1152px;
+  height: 648px; */
 }
 .BigSquare4 {
   position: relative;
@@ -359,6 +360,7 @@ body {
   border-radius: 30px;
 }
 .button {
+  background: linear-gradient(to right, #f2622e, #f57b30);
   position: relative;
   display: flex;
   justify-content: center;
@@ -366,7 +368,6 @@ body {
   height: 44px;
   width: 172px;
   border-radius: 30px;
-  background: linear-gradient(to right, #f2622e, #f57b30);
 }
 .textWrap5 {
   height: 214px;

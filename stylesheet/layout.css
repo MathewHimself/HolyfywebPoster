@@ -416,6 +416,9 @@ body {
   background: linear-gradient(to top, #f2622e, #f57b30);
   border-radius: 30px;
 }
+.square8-hover-img {
+  position: absolute;
+}
 .square9 {
   position: relative;
   display: flex;

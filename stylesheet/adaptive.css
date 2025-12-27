@@ -67,12 +67,70 @@
     gap: 23px;
     justify-items: center;
   }
+  .morph1 {
+    width: 34vw;
+    height: 48vw;
+  }
+  .textWrap {
+    width: 26vw;
+  }
+  .text1 {
+    font-size: 4vw;
+  }
+  .hand {
+    width: 40%;
+  }
   #block5 {
     display: grid;
     grid-template-columns: 46.5vw 21.5vw 18.2vw;
     grid-template-rows: 30vw 18.8vw;
     gap: 23px;
     justify-items: center;
+  }
+  .gifka {
+    height: 44.7vw;
+    width: 46.5vw;
+  }
+  .text2 {
+    font-size: 4vw;
+  }
+  .calcBig1 {
+    width: 37vw;
+  }
+  .calcContainer {
+    width: 37vw;
+    height: 13vw;
+  }
+  .aim {
+    width: 12.8vw;
+    height: 24vw;
+  }
+  .text4 {
+    font-size: 4vw;
+  }
+  .button {
+    height: 3.4vw;
+    width: 13.4vw;
+  }
+  .glyphs2 {
+    height: 19vw;
+    width: 124vw;
+  }
+  .circle1 {
+    height: 9.2vw;
+    width: 8.4vw;
+  }
+  .circle2 {
+    height: 9.2vw;
+    width: 8.4vw;
+  }
+  .circle3 {
+    height: 9.2vw;
+    width: 8.4vw;
+  }
+  .circle4 {
+    height: 9.2vw;
+    width: 8.4vw;
   }
   .BigSquare4 {
     grid-area: 1 /1 / 3 / 2;
@@ -206,6 +264,9 @@
   .square5 {
     position: relative;
   }
+  .hand {
+    width: 40%;
+  }
   .glyph2 {
     width: 100%;
     height: 100%;
@@ -237,6 +298,9 @@
     height: 19vw;
     width: 124vw;
   }
+  .hand {
+    width: 80%;
+  }
   .square7 {
     grid-area: 1 /2 / 2 / 2;
     height: 100%;
@@ -261,8 +325,6 @@
   .button {
     height: 3.4vw;
     width: 13.4vw;
-    min-height: 44px;
-    min-width: 172px;
   }
   .square9 {
     grid-area: 2 /2 / 3 /4;
@@ -302,13 +364,13 @@
 
 @media (max-width: 768px) {
   body {
-    gap: 26px;
+    gap: 12px;
   }
   #block1 {
     display: grid;
     grid-template-columns: 33vw 53vw;
     grid-template-rows: 90vw 90vw 45vw;
-    gap: 23px;
+    gap: 12px;
     justify-items: center;
   }
   .BigSquare1 {
@@ -321,8 +383,6 @@
   .moon {
     width: 60.41vw;
     height: 65vw;
-    min-height: 241px;
-    min-width: 224px;
   }
   .whiteSquare {
     grid-area: 2 / 1/ 2 / 3;
@@ -349,14 +409,46 @@
     display: grid;
     grid-template-columns: 91vw;
     grid-template-rows: 175vw 131.5vw 61.2vw;
-    gap: 23px;
+    gap: 12px;
     justify-items: center;
+  }
+  .square3 {
+    grid-area: 2 /1 / 2 / 1;
+  }
+  .hand {
+    width: 80%;
+  }
+  .textWrap {
+    width: 49.8vw;
+  }
+  .text1 {
+    font-size: 8vw;
+  }
+  .morph1 {
+    width: 75.5vw;
+    height: 105.8vw;
+  }
+  .square4 {
+    grid-area: 3 /1 / 3 / 1;
+  }
+  .calcBig1 {
+    width: 73vw;
+  }
+  .text2 {
+    font-size: 8vw;
+  }
+  .calcContainer {
+    width: 73vw;
+    height: 25.7vw;
+  }
+  .square5 {
+    grid-area: 1 /1 / 1 / 1;
   }
   #block5 {
     display: grid;
     grid-template-columns: 48vw 40vw;
     grid-template-rows: 92vw 66vw 41vw;
-    gap: 23px;
+    gap: 12px;
     justify-items: center;
     max-width: 1152px;
   }
@@ -384,7 +476,7 @@
   }
   .text4 {
     text-align: center;
-    font-size: 8vw;
+    font-size: 9vw;
   }
   .aim {
     width: 24.8vw;
@@ -393,8 +485,6 @@
   .button {
     height: 7.5vw;
     width: 29.6vw;
-    min-height: 58px;
-    min-width: 110px;
   }
   .square8 {
     grid-area: 2 /2 / 2 /2;
@@ -421,6 +511,7 @@
     grid-area: 3 /1 / 3 /3;
     height: 100%;
     width: 100%;
+    gap: 8px;
   }
   #block6 {
     gap: 32.5vw;
@@ -441,6 +532,24 @@
   }
 }
 @media (max-width: 414px) {
+  .moon {
+    width: 60.41vw;
+    height: 65vw;
+  }
+  .button {
+    height: 7.5vw;
+    width: 29.8vw;
+  }
+  .text4 {
+    font-size: vw;
+  }
+  .text5 {
+    font-size: 4vw;
+  }
+  .button {
+    height: 7.5vw;
+    width: 29.8vw;
+  }
   #block6 {
     gap: 12.5vw;
   }

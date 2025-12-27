@@ -151,6 +151,7 @@ body {
   width: 100%;
   height: 100%;
   border-radius: 30px;
+  z-index: 2;
 }
 .textWrap {
   align-items: center;
@@ -231,9 +232,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  width: 532px;
-  height: 354px;
+  gap: 1.25vw;
+  width: 41.5vw;
+  height: 27.6vw;
   border-radius: 30px;
 }
 .square5 {
@@ -243,23 +244,25 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
 }
 
 .glyph2 {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  z-index: 0;
 }
 .hand {
   position: absolute;
-  width: 40%;
-  top: 5%;
+  width: 80%;
+  top: 2%;
+  z-index: 1;
 }
 #block4 {
   overflow: hidden;
   width: 90vw;
   height: 25vw;
+  z-index: 2;
 }
 .square6 {
   position: relative;
@@ -308,8 +311,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* width: 1152px;
-  height: 648px; */
 }
 .BigSquare4 {
   position: relative;
@@ -441,8 +442,8 @@ body {
   flex-direction: row;
   gap: 20.7vw;
   background-color: #fff;
-  height: 200px;
-  width: 1163px;
+  height: 15.6vw;
+  width: 88.8vw;
   border-radius: 30px;
 }
 .row2 {
@@ -452,20 +453,20 @@ body {
   align-items: center;
   flex-direction: row;
   gap: 7px;
-  height: 52px;
-  width: 503px;
+  height: 4vw;
+  width: 36.3vw;
   left: 5%;
 }
 .text6 {
   text-transform: uppercase;
   font-family: "Halvar Mittelschrift";
-  font-size: 24px;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 500;
   line-height: 150.6%;
 }
 .HSElogo {
   position: relative;
-  height: 100px;
-  width: 248px;
+  height: 7.8vw;
+  width: 19.3vw;
 }

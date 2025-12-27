@@ -298,6 +298,11 @@
     height: 19vw;
     width: 124vw;
   }
+  .glyphscontainer {
+    overflow: hidden;
+    width: 100%;
+  }
+
   .hand {
     width: 80%;
   }
@@ -465,6 +470,16 @@
     height: 43vw;
     width: 291vw;
   }
+  .glyphscontainer {
+    display: flex;
+    height: 43vw;
+    width: 291vw;
+  }
+  /* .glyphscontainer {
+    display: flex;
+    height: 43vw;
+    width: 291vw;
+  } */
   .square7 {
     grid-area: 2 /1 / 2 / 2;
     height: 100%;

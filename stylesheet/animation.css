@@ -1,0 +1,201 @@
+.moon {
+  animation: moon-float 4s ease-in-out infinite, moon-spin 30s linear infinite;
+
+  transform-origin: center center;
+}
+@keyframes moon-float {
+  0%,
+  100% {
+    top: 30%;
+  }
+  50% {
+    top: -2%;
+  }
+}
+@keyframes moon-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.planet {
+  animation: planet-spin 20s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes planet-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+.flower {
+  position: relative;
+  display: flex;
+  animation: flower-spin 12s linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes flower-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.glyphRow-track {
+  gap: 0.4vw;
+  animation: glyphRowMarquee 8s linear infinite;
+}
+@keyframes glyphRowMarquee {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+.glyphscontainer {
+  overflow: hidden;
+  width: 100%;
+}
+
+.glyphs-track {
+  animation: marquee 10s linear infinite;
+}
+
+.glyphs2 {
+  flex-shrink: 0;
+  width: auto;
+  display: block;
+}
+
+.hand {
+  animation: hand-float 3s ease-in-out infinite;
+}
+@keyframes hand-float {
+  0%,
+  100% {
+    top: 4%;
+  }
+  50% {
+    top: 10%;
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.rectangle1 {
+  animation: rect1-slide 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+.rectangle2 {
+  animation: rect2-slide 8s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite;
+}
+@keyframes rect1-slide {
+  0% {
+    width: 34vw;
+    left: 2vw;
+  }
+  33% {
+    width: 19.6vw;
+    left: 40vw;
+  }
+  66% {
+    width: 34vw;
+    left: 44vw;
+  }
+  100% {
+    width: 34vw;
+    left: 2vw;
+  }
+}
+
+@keyframes rect2-slide {
+  0% {
+    width: 19.6vw;
+    left: 10vw;
+  }
+  33% {
+    width: 34vw;
+    left: 44vw;
+  }
+  66% {
+    width: 19.6vw;
+    left: 40vw;
+  }
+  100% {
+    width: 19.6vw;
+    left: 10vw;
+  }
+}
+.calcPart1 {
+  flex-basis: 25.6vw;
+  /flex-shrink: 0;
+
+  animation: calcAsync1 4s linear infinite;
+}
+.calcPart4 {
+  flex-basis: 8.7vw;
+  flex-shrink: 0;
+
+  animation: calcAsync4 4s linear infinite;
+}
+@keyframes calcAsync1 {
+  0% {
+    flex-basis: 25.6vw;
+  }
+  50% {
+    flex-basis: 8.7vw;
+  }
+  100% {
+    flex-basis: 25.6vw;
+  }
+}
+
+@keyframes calcAsync4 {
+  0% {
+    flex-basis: 8.7vw;
+  }
+  50% {
+    flex-basis: 25.6vw;
+  }
+  100% {
+    flex-basis: 8.7vw;
+  }
+}
+.circle1 {
+  animation: circle-spin 12s linear infinite;
+  animation-delay: 0s;
+}
+
+.circle2 {
+  animation: circle-spin 16s linear infinite;
+  animation-delay: -2s;
+}
+
+.circle3 {
+  animation: circle-spin 10s linear infinite;
+  animation-delay: -1s;
+}
+
+.circle4 {
+  animation: circle-spin 14s linear infinite;
+  animation-delay: -4s;
+}
+@keyframes circle-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

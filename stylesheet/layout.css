@@ -66,6 +66,11 @@ body {
 .glyphRow {
   width: 63px;
   height: 428px;
+  flex-shrink: 0;
+}
+.glyphRow-track {
+  display: flex;
+  flex-direction: column;
 }
 .square2 {
   position: relative;
@@ -328,9 +333,22 @@ body {
   width: 595px;
 }
 .glyphs2 {
-  position: absolute;
+  position: relative;
+  flex-shrink: 0;
   height: 244px;
   width: 1589px;
+}
+.glyphscontainer {
+  display: flex;
+  position: absolute;
+  height: 19vw;
+  width: 100%;
+  white-space: nowrap;
+}
+.glyphs-track {
+  gap: 1vw;
+  display: flex;
+  width: max-content;
 }
 .BigSquare5 {
   position: relative;
@@ -404,7 +422,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  gap: 24px;
+  gap: 1.8vw;
   height: 241px;
   width: 533px;
   background-color: #fff;
